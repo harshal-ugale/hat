@@ -1,0 +1,12 @@
+{
+ "AWSTemplateFormatVersion": "2010-09-09",
+ "Description" : "AvSample Template",
+ "Resources" : {
+         "myS3Bucket" : {
+		         "Type" : "AWS::S3::Bucket"'
+				 "properties" : {
+				                  "BucketName" : "cft12"
+				 }
+			}
+		}
+}
